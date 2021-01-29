@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 10%;
+  color: #444444;
 }
 
 .formBox h2 {
@@ -17,7 +18,7 @@
   font-weight: bold;
   font-size: 18px;
 
-  color: #868686;
+  color: #333333;
 }
 
 .formBox input {
@@ -35,12 +36,11 @@
   width: 50%;
 }
 
-
 @media (max-width: 768px) {
   .formBox {
     text-align: center;
   }
   .formBox button {
-  margin: 0 auto; 
-}
+    margin: 0 auto;
+  }
 }

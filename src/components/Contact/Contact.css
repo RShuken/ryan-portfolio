@@ -6,7 +6,7 @@
 .contactTitle {
   font-family: 'Poppins';
   font-style: normal;
-  color: #868686;
+  color: #646464;
 }
 
 .contactTitle h1 {
@@ -34,14 +34,14 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  color: #868686;
+  color: #646464;
   margin: 0 auto;
 }
 
 .contactInfoBox p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  color: #868686;
+  color: #646464;
   margin: 0 auto;
   text-align: center;
 }
@@ -54,7 +54,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: bold;
   text-decoration: underline;
-  color: #868686;
+  color: #646464;
   margin: 0 auto;
   font-size: 14px;
   text-align: center;
