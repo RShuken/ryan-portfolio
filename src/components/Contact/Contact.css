@@ -1,0 +1,36 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactTitle {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #868686;
+}
+
+.contactTitle h1 {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 120px;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contactInfoBox {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.contactForm {
+  margin-top: 0px;
+}
+
+.contactTitle {
+  margin-bottom: 20px;
+}

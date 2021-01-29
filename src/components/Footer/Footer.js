@@ -1,24 +1,19 @@
 import React, { Component } from 'react';
-
+import './Footer.css'
 
 class Footer extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-
-
-
-
-
-
-    
-    render() { 
-        return (<>
-        <h1>The Footer page has rendered</h1>
-        </>);
-    }
+  render() {
+    return (
+      <footer>
+        <div className='footerContainer'><p>Copyright: 2021</p></div>
+      </footer>
+    );
+  }
 }
- 
+
 export default Footer;

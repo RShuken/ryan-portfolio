@@ -1,0 +1,45 @@
+.projectsWrapper {
+  margin-top: 30px;
+}
+
+.projectsTitle h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 120px;
+
+  color: #868686;
+}
+
+.projectContainer-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.projectInfoBox h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 90px;
+  letter-spacing: -0.257143px;
+
+  color: #868686;
+}
+
+.projectInfoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.projectContainer-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+}

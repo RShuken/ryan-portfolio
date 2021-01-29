@@ -1,20 +1,10 @@
 .App {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
-.App-header {
-  margin: 0;
-  padding: 0;
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto; 
 }
-
-.App-main {
-  margin: 0;
-  padding: 0;
-}
-
-.App-footer {
-  margin: 0;
-  padding: 0;
-}
-

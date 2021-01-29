@@ -1,0 +1,9 @@
+.footerContainer {
+  background: azure;
+  height: 40px;
+  text-align: center;
+  padding: 15px; 
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}

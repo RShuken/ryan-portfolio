@@ -1,0 +1,47 @@
+.greyBox {
+  width: 77%;
+  height: 713px;
+  margin-left: 23%;
+  background: #f6f6f6;
+  mix-blend-mode: normal;
+}
+
+.wordsTextBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingWrapper {
+  margin-top: -85px;
+  z-index: -1;
+}
+
+.landingWrapper .wordsTextBox h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  /* margin-left: 18%; */
+  color: #868686;
+  min-width: 519px;
+  line-height: 120px;
+}
+
+.landingWrapper .wordsTextBox img {
+    width: 100%;
+ }
+
+ .workTitle {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  /* margin-left: 18%; */
+  text-align: center;
+  color: #868686;
+  margin-top: -120px;
+  min-width: 519px;
+}

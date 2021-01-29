@@ -1,0 +1,36 @@
+.navHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+header {
+  top: 0;
+  left: 6%;
+}
+
+nav {
+  width: 100%;
+  margin-left: 23%;
+  z-index: 2;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 66px;
+}
+
+nav li a {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 6.33143px;
+  color: #000000;
+  
+}
