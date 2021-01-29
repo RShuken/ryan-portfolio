@@ -14,23 +14,25 @@ export default class Form extends React.Component {
     const { status } = this.state;
     return (
       <div className='formBox'>
-        <form
-          className='formBody'
-          onSubmit={this.submitForm}
-          action='https://formspree.io/f/mvovlezg'
-          method='POST'
-        >
-          <label>
-            <h2>Email:</h2>
-            <input type='email' name='email' />
-          </label>
-          <label>
-            <h2>Message:</h2>
-            <input type='text' textarea='' name='message' />
-          </label>
-          {status === 'SUCCESS' ? <p>Thanks!</p> : <button>Submit</button>}
-          {status === 'ERROR' && <p>Ooops! There was an error.</p>}
-        </form>
+        <section className='contact-form'>
+          <form
+            className='formBody'
+            onSubmit={this.submitForm}
+            action='https://formspree.io/f/mvovlezg'
+            method='POST'
+          >
+            <label>
+              <h2>Email:</h2>
+              <input type='email' name='email' />
+            </label>
+            <label>
+              <h2>Message:</h2>
+              <input type='text' textarea='' name='message' />
+            </label>
+            {status === 'SUCCESS' ? <p>Thanks!</p> : <button>Submit</button>}
+            {status === 'ERROR' && <p>Ooops! There was an error.</p>}
+          </form>
+        </section>
       </div>
     );
   }
