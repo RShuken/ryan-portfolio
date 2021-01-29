@@ -11,7 +11,7 @@ class About extends Component {
   render() {
     return (
       <div className='aboutWrapper'>
-        <div className='titleBox'>
+        <div className='titleBox' id='about'>
           <h1>About</h1>
           <div className='designBox'>
             <div className='design1'></div>
@@ -24,19 +24,15 @@ class About extends Component {
         </div>
         <div className='introBox'>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci
-            nulla pellentesque dignissim enim sit amet. Ultrices eros in cursus
-            turpis massa tincidunt dui ut. Blandit massa enim nec dui nunc. Mi
-            quis hendrerit dolor magna eget est lorem. In tellus integer feugiat
-            scelerisque varius morbi. Sit amet mattis vulputate enim nulla
-            aliquet porttitor lacus luctus. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Orci nulla pellentesque dignissim
-            enim sit amet. Ultrices eros in cursus turpis massa tincidunt dui
-            ut. Blandit massa enim nec dui nunc. Mi quis hendrerit dolor magna
-            eget est lorem. In tellus integer feugiat scelerisque varius morbi.
-            Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus.
+            I'm an ex-venture capitalist turned coder, following my love of
+            coding. I grew up in the US, but I've spent half of my life living
+            in Shanghai, China. I have always loved coding since I was 12. I was
+            caught up building startups for many years, then jumped into venture
+            capital for the last 10 years. Now I'm on a mission to design my own
+            future with coding. I've seen the incredible progress made through
+            the hard work of developers bringing ideas into reality and I want
+            to learn how to join the ranks of developers and work my way up to
+            building AIs.
           </p>
         </div>
         <div className='imageContainer'>
@@ -44,13 +40,13 @@ class About extends Component {
         </div>
         <div className='introBox'>
           <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci
-                    nulla pellentesque dignissim enim sit amet. Ultrices eros in cursus
-                    turpis massa tincidunt dui ut. Blandit massa enim nec dui nunc. Mi
-                    quis hendrerit dolor magna eget est lorem. In tellus integer 
+            You can find me playing music or home-brewing beer most weekends. I
+            am constantly starting/finishing a new coding project at home and I
+            love the science behind everything as I strive to always be
+            learning. I am passionate about helping other people and love
+            teaching.
           </p>
-                <h4 className='signature'>Ryan Shuken</h4>
+          <h4 className='signature'>Ryan Shuken</h4>
         </div>
       </div>
     );

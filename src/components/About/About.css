@@ -4,13 +4,16 @@
   align-items: space-between;
 }
 
+.aboutWrapper {
+  margin: 20px;
+}
+
 .designBox {
   display: flex;
   flex-direction: row;
 }
 
 .design1 {
-  /* position: absolute; */
   width: 144px;
   height: 144px;
 
@@ -21,12 +24,10 @@
 }
 
 .design2 {
-  /* position: absolute; */
   width: 144px;
   height: 144px;
 
   background: #ffffff;
-  /* 1 */
 
   box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
   border-radius: 72px 0px;
@@ -44,8 +45,8 @@
 }
 
 .titleBox {
-    justify-content: space-between;
-    margin-top: 50px;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .introBox p {
@@ -54,15 +55,14 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 36px;
-margin-top: 20px; 
+  margin-top: 20px;
   letter-spacing: 0.385714px;
 
   color: #6d6d6d;
 }
 
-.imageContainer .image img{
-    width: 70%;
-   
+.imageContainer img {
+  width: 80%;
 }
 
 .imageContainer {
@@ -71,14 +71,33 @@ margin-top: 20px;
 }
 
 .signature {
-font-family: 'Cedarville Cursive', cursive;
-font-style: normal;
-font-weight: normal;
-font-size: 80px;
-line-height: 76px;
-/* identical to box height */
+  font-family: 'Cedarville Cursive', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 76px;
+  /* identical to box height */
 
-letter-spacing: 1.71429px;
-margin-top: 20px; 
-color: #6D6D6D;
+  letter-spacing: 1.71429px;
+  margin-top: 20px;
+  color: #6d6d6d;
+}
+
+@media (max-width: 1400px) {
+  .designBox {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .titleBox h1 {
+    font-size: 52px;
+    line-height: normal;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .signature {
+    font-size: 23px;
+    margin: 0 auto;
+  }
 }

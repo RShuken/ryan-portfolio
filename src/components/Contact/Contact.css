@@ -19,18 +19,76 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin: 0 auto;
 }
 
 .contactInfoBox {
   display: flex;
   flex-direction: column;
   max-width: 400px;
+  margin: 10px;
+  justify-content: left;
+}
+
+.contactInfoBox h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #868686;
+  margin: 0 auto;
+}
+
+.contactInfoBox p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #868686;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contactInfoBox a {
+  text-decoration: none;
+}
+
+.contactInfoBox h4 {
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  text-decoration: underline;
+  color: #868686;
+  margin: 0 auto;
+  font-size: 14px;
+  text-align: center;
 }
 
 .contactForm {
   margin-top: 0px;
+  max-width: 400px;
+  margin: 10px;
 }
 
 .contactTitle {
   margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contactBox {
+    flex-direction: column;
+  }
+
+  .contactTitle h1 {
+    font-size: 52px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .contactTitle p {
+    text-align: center;
+  }
+
+  .contactInfoBox h2 {
+    font-size: 32px;
+    line-height: normal;
+    text-align: center;
+  }
 }

@@ -1,11 +1,3 @@
-.greyBox {
-  width: 77%;
-  height: 713px;
-  margin-left: 23%;
-  background: #f6f6f6;
-  mix-blend-mode: normal;
-}
-
 .wordsTextBox {
   display: flex;
   flex-direction: row;
@@ -15,7 +7,7 @@
 }
 
 .landingWrapper {
-  margin-top: -85px;
+  margin: 0 auto;
   z-index: -1;
 }
 
@@ -24,24 +16,45 @@
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
-  /* margin-left: 18%; */
   color: #868686;
-  min-width: 519px;
+  margin: 0 auto;
   line-height: 120px;
 }
 
 .landingWrapper .wordsTextBox img {
-    width: 100%;
- }
+  width: 90%;
+}
 
- .workTitle {
+.workTitle {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
-  /* margin-left: 18%; */
   text-align: center;
   color: #868686;
-  margin-top: -120px;
-  min-width: 519px;
+  margin: 0 auto;
 }
+
+@media (max-width: 1300px) {
+  .wordsTextBox {
+    flex-direction: column;
+    text-align: center;
+  }
+  .landingWrapper .wordsTextBox h1 {
+    font-size: 52px;
+    line-height: 62px;
+    margin-top: 20px;
+  }
+  .workTitle {
+    font-size: 52px;
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
+/* @media (max-width: 1300px) {
+  .landingWrapper .wordsTextBox h1 {
+    font-size: 52px;
+    line-height: normal;
+  }
+} */

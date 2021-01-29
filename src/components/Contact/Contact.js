@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Form from './Form/Form';
-import './Contact.css'
-
+import './Contact.css';
 
 class Contact extends Component {
   constructor(props) {
@@ -20,8 +19,8 @@ class Contact extends Component {
           <div className='contactForm'>
             <Form />
           </div>
-          <div className='contactInfoBox'>
-            <h2>Let's talk about everything!</h2>
+          <div className='contactInfoBox' id='contact'>
+            <h2>Let's talk!</h2>
             <p>
               If you like my work, feel free to contact me. Below here are my
               contact no. and email. Let's talk about what you want and I'm
@@ -30,8 +29,10 @@ class Contact extends Component {
             <h4>Phone:</h4>
             <p>(805)-584-4857</p>
             <h4>Email:</h4>
-            <a href='mailto:ryanshuken@me.com'><p>ryanshuken@me.com</p></a>
-            
+            <a href='mailto:ryanshuken@me.com'>
+              <p>ryanshuken@me.com</p>
+            </a>
+
             <h4>GitHub:</h4>
             <a href='www.github.com/RShuken'>
               <p>Ryan's GitHub</p>

@@ -1,18 +1,16 @@
 .navHeaderContainer {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
 }
 
 header {
-  top: 0;
-  left: 6%;
+  margin: 0 auto;
+  min-width: 320px;
 }
 
 nav {
-  width: 100%;
-  margin-left: 23%;
-  z-index: 2;
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -23,7 +21,8 @@ nav ul {
 
 nav li {
   list-style: none;
-  margin-right: 66px;
+  margin: 0 auto;
+  padding: 0 20px; 
 }
 
 nav li a {
@@ -32,5 +31,18 @@ nav li a {
   text-transform: uppercase;
   letter-spacing: 6.33143px;
   color: #000000;
-  
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  nav li {
+    padding: 3px;
+  }
 }
