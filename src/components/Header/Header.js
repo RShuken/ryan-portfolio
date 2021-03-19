@@ -7,24 +7,45 @@ class Header extends Component {
     this.state = {};
   }
 
+  scroll() {
+    let targetElement = document.getElementById('about');
+    targetElement.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest',
+    });
+  }
+
   renderHeaderNav() {
     return (
+      // Header and Navigation Menu
       <header>
-        <div className='navHeaderContainer'>
-          <nav>
+        <section className='nav'>
+          <div className='name'>Ryan Shuken</div>
+
+          <div className='navigationList'>
             <ul>
               <li>
-                <a href='#contact'>contact</a>
+                <a href='#contact'>
+                  <i className='fas fa-paper-plane'></i>
+                  <span>contact</span>
+                </a>
               </li>
               <li>
-                <a href='#about'>about</a>
+                <a onClick={() => this.scroll()}>
+                  <i className='fas fa-user-circle'></i>
+                  <span>about</span>
+                </a>
               </li>
               <li>
-                <a href='#projects'>projects</a>
+                <a href='#projects'>
+                  <i className='fas fa-briefcase'></i>
+                  <span>projects</span>
+                </a>
               </li>
             </ul>
-          </nav>
-        </div>
+          </div>
+        </section>
       </header>
     );
   }

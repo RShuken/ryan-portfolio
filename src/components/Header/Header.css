@@ -1,48 +1,64 @@
-.navHeaderContainer {
-  display: flex;
-  flex-direction: row;
-}
-
 header {
   margin: 0 auto;
   min-width: 320px;
 }
 
-nav {
-  min-width: 320px;
-  margin: 0 auto;
-}
-
-nav ul {
+.nav {
   display: flex;
   flex-direction: row;
-  margin-top: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-nav li {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0 20px; 
+.name {
+  font-size: 3em;
+  font-family: 'Great Vibes';
 }
 
-nav li a {
+.navigationList {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+}
+
+.navigationList ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigationList li {
   list-style: none;
+}
+
+.navigationList li a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 6.33143px;
   color: #000000;
 }
 
+.navigationList li i {
+  margin-right: 10px;
+}
+
 @media (max-width: 768px) {
-  nav ul {
+  .nav {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 5px;
   }
 
-  nav li {
-    padding: 3px;
+  .navigationList span {
+    display: none;
+  }
+
+  .navigationList {
+    width: 120px;
+  }
+
+  .navigationList li i:hover .navigationList span {
+    display: block !important;
+    color: red;
   }
 }

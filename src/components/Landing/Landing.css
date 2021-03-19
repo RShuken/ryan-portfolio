@@ -1,63 +1,25 @@
-.wordsTextBox {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+/* css is in order as it appears on the page */
+
+.landing {
+  background-image: url("../../images/landingbackground.jpg");
+  background-repeat: cover;
+  background-size: auto;
+
 }
+
 
 .landingWrapper {
   margin: 0 auto;
-  z-index: -1;
-}
-
-.landingWrapper .wordsTextBox h1 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 100px;
-  color: #868686;
-  margin: 0 auto;
-  line-height: 120px;
-}
-
-.landingWrapper .wordsTextBox img {
-  width: 250px;
-  height: auto; 
-  border-radius: 400px;
-}
-
-.workTitle {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 100px;
-  text-align: center;
-  color: #868686;
-  margin: 0 auto;
-}
-
-@media (max-width: 1300px) {
-  .wordsTextBox {
-    flex-direction: column;
-    text-align: center;
-  }
-  .landingWrapper .wordsTextBox h1 {
-    font-size: 52px;
-    line-height: 62px;
-    margin-top: 20px;
-  }
-  .workTitle {
-    font-size: 52px;
-    margin: 0 auto;
-    width: auto;
-  }
 
 }
 
-/* @media (max-width: 1300px) {
-  .landingWrapper .wordsTextBox h1 {
-    font-size: 52px;
-    line-height: normal;
-  }
-} */
+
+
+@media (max-width: 768px) {
+  
+
+
+
+
+
+}
