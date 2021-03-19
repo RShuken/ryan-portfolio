@@ -82,7 +82,7 @@ class Projects extends Component {
               </p>
             </div>
           </div>
-          <div className='projectContainer-left'>
+          {/* <div className='projectContainer-left'>
             <div className='imageBox'>
               <a
                 target='_blank'
@@ -113,7 +113,7 @@ class Projects extends Component {
                 incremented along with the head value of the linked list.
               </p>
             </div>
-          </div>
+          </div> */}
         </section>
       </div>
     );
