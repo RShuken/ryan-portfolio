@@ -47,6 +47,7 @@ class Projects extends Component {
                 Create flashcard decks or add community decks to start learning
                 any language. Social, educational, and fun!
               </p>
+              <p>Hello Life!</p>
             </div>
           </div>
           <div className='projectContainer-right'>
