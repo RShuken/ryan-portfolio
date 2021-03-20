@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Projects.css';
 import okla from '../../images/ok-la.png';
 import petful from '../../images/petful.png';
-import spacedR from '../../images/spacedR.png';
+//import spacedR from '../../images/spacedR.png';
 
 class Projects extends Component {
   constructor(props) {
