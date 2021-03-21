@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
-import maskImage from '../../images/mask1.png';
+import headshot from '../../images/headshot.JPG'
 
 class About extends Component {
   constructor(props) {
@@ -10,47 +10,23 @@ class About extends Component {
 
   render() {
     return (
-      <div className='aboutWrapper'>
-        <section className='about'>
-          <div className='titleBox' id='about'>
-            <h1>About</h1>
-            <div className='designBox'>
-              <div className='design1'></div>
-              <div className='design2'></div>
-              <div className='design1'></div>
-              <div className='design2'></div>
-              <div className='design1'></div>
-              <div className='design2'></div>
-            </div>
-          </div>
-          <div className='introBox'>
-            <p>
-              I'm an ex-venture capitalist turned coder, following my love of
-              coding. I grew up in the US, but I've spent half of my life living
-              in Shanghai, China. I have always loved coding since I was 12. I
-              was caught up building startups for many years, then jumped into
-              venture capital for the last 10 years. Now I'm on a mission to
-              design my future with coding. I've seen the incredible progress
-              made through the hard work of developers bringing ideas into
-              reality and I want to learn how to join the ranks of developers
-              and work my way up to building AIs.
-            </p>
-          </div>
-          <div className='imageContainer'>
-            <img src={maskImage} alt='coffeeImage'></img>
-          </div>
-          <div className='introBox'>
-            <p>
-              You can find me playing music or home-brewing beer most weekends.
-              I am constantly starting/finishing a new coding project at home
-              and I love the science behind everything as I strive to always be
-              learning. I am passionate about helping other people and love
-              teaching.
-            </p>
-            <h4 className='signature'>Ryan Shuken</h4>
-          </div>
-        </section>
-      </div>
+      <section className='aboutSection' id='about'>
+        <h1>About</h1>
+        <div className='aboutBox'>
+          <img src={headshot} alt='headshot' />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </section>
     );
   }
 }

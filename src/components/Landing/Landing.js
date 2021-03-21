@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import headShot from '../../images/ryanheadshot.png';
 import './Landing.css';
+import Header from '../Header/Header'
 
 class Landing extends Component {
   constructor(props) {
@@ -10,11 +11,8 @@ class Landing extends Component {
 
   render() {
     return (
-        <section className='landing'>
-          <div className='wordsTextBox'>
-            <img src={headShot} alt='headshot' className='headshot_image' />
-          </div>
-          <h1 className='workTitle'>Full Stack Developer</h1>
+      <section className='landing'>
+        <Header/>
         </section>
     );
   }

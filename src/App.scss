@@ -1,0 +1,31 @@
+@import './styles/_color.module.scss';
+
+@mixin fontPoppins($fontSize) {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontSize;
+  line-height: 120px;
+}
+
+.App {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  @include fontPoppins(72px);
+  margin-bottom: 30px;
+  color: $light-grey;
+}
+
+h2 {
+  @include fontPoppins(28px);
+  color: $light-grey;
+}
+
+h3 {
+  @include fontPoppins(24px);
+  color: $light-grey;
+}

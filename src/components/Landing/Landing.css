@@ -1,25 +1,15 @@
 /* css is in order as it appears on the page */
 
 .landing {
-  background-image: url("../../images/landingbackground.jpg");
-  background-repeat: cover;
-  background-size: auto;
-
+  background-image: url('../../images/landingbackground.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 90vh;
 }
-
 
 .landingWrapper {
   margin: 0 auto;
-
 }
 
-
-
 @media (max-width: 768px) {
-  
-
-
-
-
-
 }

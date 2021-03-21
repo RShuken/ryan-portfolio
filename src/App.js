@@ -1,5 +1,5 @@
-import './App.css';
-import Header from './components/Header/Header.js';
+import './App.scss';
+import colors from './styles/_color.module.scss';
 import About from './components/About/About.js';
 import Projects from './components/Projects/Projects.js';
 import Contact from './components/Contact/Contact.js';
@@ -9,14 +9,12 @@ import Landing from './components/Landing/Landing.js';
 function App() {
   return (
     <div className='App'>
-      <div className='wrapper'>
-        <Header />
+       <p styles={{color: colors.lightGrey}}>{colors.lightGrey} cool sass stuff</p>
         <Landing />
         <About />
         <Projects />
         <Contact />
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }

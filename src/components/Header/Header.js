@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Header.css';
+import styles from './Header.module.scss';
 
 class Header extends Component {
   constructor(props) {
@@ -7,8 +7,8 @@ class Header extends Component {
     this.state = {};
   }
 
-  scroll() {
-    let targetElement = document.getElementById('about');
+  scroll(string) {
+    let targetElement = document.getElementById(string);
     targetElement.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
@@ -20,25 +20,25 @@ class Header extends Component {
     return (
       // Header and Navigation Menu
       <header>
-        <section className='nav'>
-          <div className='name'>Ryan Shuken</div>
+        <section className={styles.nav}>
+          <div className={styles.name}>Ryan Shuken</div>
 
-          <div className='navigationList'>
+          <div className={styles.navigationList}>
             <ul>
               <li>
-                <a href='#contact'>
+                <a onClick={() => this.scroll('contact')}>
                   <i className='fas fa-paper-plane'></i>
                   <span>contact</span>
                 </a>
               </li>
               <li>
-                <a onClick={() => this.scroll()}>
+                <a onClick={() => this.scroll('about')}>
                   <i className='fas fa-user-circle'></i>
                   <span>about</span>
                 </a>
               </li>
               <li>
-                <a href='#projects'>
+                <a onClick={() => this.scroll('projects')}>
                   <i className='fas fa-briefcase'></i>
                   <span>projects</span>
                 </a>
