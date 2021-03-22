@@ -9,7 +9,6 @@ import Landing from './components/Landing/Landing.js';
 function App() {
   return (
     <div className='App'>
-       <p styles={{color: colors.lightGrey}}>{colors.lightGrey} cool sass stuff</p>
         <Landing />
         <About />
         <Projects />
