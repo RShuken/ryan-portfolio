@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Projects.css';
+import styles from './Projects.module.scss';
 import okla from '../../images/ok-la.png';
 import petful from '../../images/petful.png';
 import spacedR from '../../images/spacedR.png';
@@ -12,13 +12,13 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className='projectsWrapper'>
-        <section className='projects'>
-          <div className='projectsTitle' id='projects'>
+      <div className={styles.projectsWrapper}>
+        <section className={styles.projects}>
+          <div className={styles.projectsTitle} id='projects'>
             <h1>Projects</h1>
           </div>
-          <div className='projectContainer-left'>
-            <div className='imageBox'>
+          <div className={styles.projectContainerLeft}>
+            <div className={styles.imageContainer}>
               <a
                 target='_blank'
                 rel='noopener noreferrer'
@@ -27,7 +27,7 @@ class Projects extends Component {
                 <img src={okla} alt='Ok Language Learning' />
               </a>
             </div>
-            <div className='projectInfoBox'>
+            <div className={styles.projectInfoContainer}>
               <h1>Ok Language Learning</h1>
               <h2>
                 React, JavaScript, JWT, PostgreSQL, NodeJS, Express, HTML, CSS
@@ -49,8 +49,8 @@ class Projects extends Component {
               </p>
             </div>
           </div>
-          <div className='projectContainer-right'>
-            <div className='imageBox'>
+          <div className={styles.projectContainerRight}>
+            <div className={styles.imageContainer}>
               <a
                 target='_blank'
                 rel='noopener noreferrer'
@@ -59,7 +59,7 @@ class Projects extends Component {
                 <img src={petful} alt='Petful Adoption' />
               </a>
             </div>
-            <div className='projectInfoBox'>
+            <div className={styles.projectInfoContainer}>
               <h1>Petful Adoption</h1>
               <h2>
                 React, JavaScript, JWT, PNodeJS, Express, HTML, CSS and Double
@@ -82,8 +82,8 @@ class Projects extends Component {
               </p>
             </div>
           </div>
-          <div className='projectContainer-left'>
-            <div className='imageBox'>
+          <div className={styles.projectContainerLeft}>
+            <div className={styles.imageContainer}>
               <a
                 target='_blank'
                 rel='noopener noreferrer'
@@ -92,7 +92,7 @@ class Projects extends Component {
                 <img src={spacedR} alt='Spaced Repetition' />
               </a>
             </div>
-            <div className='projectInfoBox'>
+            <div className={styles.projectInfoContainer}>
               <h1>Spaced Repetition Data Structure</h1>
               <h2>
                 React, JavaScript, PostgreSQL, NodeJS, Express, HTML and Single

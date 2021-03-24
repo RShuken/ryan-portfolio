@@ -2,17 +2,19 @@
   margin-top: 30px;
 }
 
-.projectsTitle h1 {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 80px;
-  line-height: 120px;
-  margin-bottom: 30px;
-  color: #868686;
+.projects {
+  
 }
 
-.projectContainer-left {
+.projectsTitle{
+
+
+  h1 {
+
+  }
+}
+
+.projectContainerLeft {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -20,18 +22,40 @@
   margin: 20px;
 }
 
-.projectInfoBox a {
-  text-decoration: none;
+.imageContainer {
+
 }
 
-.projectInfoBox h1 {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
-  line-height: 90px;
-  letter-spacing: -0.257143px;
-  color: #868686;
+.projectInfoContainer {
+ 
+  h1 {
+
+  }
+  h2 {
+
+  }
+  a {
+
+  }
+  p{
+
+  }
+
+}
+
+.projectContainerRight {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+}
+
+.projectInfoBox {
+
+  h1 {
+
+  }
 }
 
 .projectInfoBox {
@@ -42,13 +66,7 @@
   padding: 20px;
 }
 
-.projectContainer-right {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-content: center;
-  margin: 20px;
-}
+
 
 .imageBox img {
   width: 100%;
