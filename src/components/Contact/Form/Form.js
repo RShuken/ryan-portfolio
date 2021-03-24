@@ -1,5 +1,5 @@
 import React from 'react';
-import './Form.css';
+import styles from './Form.module.scss';
 
 export default class Form extends React.Component {
   constructor(props) {
@@ -13,10 +13,9 @@ export default class Form extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <div className='formBox'>
-        <section className='contact-form'>
+        <section className={styles.contactForm}>
           <form
-            className='formBody'
+            className={styles.formBody}
             onSubmit={this.submitForm}
             action='https://formspree.io/f/mvovlezg'
             method='POST'
@@ -33,7 +32,6 @@ export default class Form extends React.Component {
             {status === 'ERROR' && <p>Ooops! There was an error.</p>}
           </form>
         </section>
-      </div>
     );
   }
 

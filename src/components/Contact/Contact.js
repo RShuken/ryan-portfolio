@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Form from './Form/Form';
-import './Contact.css';
+import styles from './Contact.module.scss';
 
 class Contact extends Component {
   constructor(props) {
@@ -10,17 +10,17 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className='contactContainer'>
-        <section className='contact'>
-          <div className='contactTitle'>
+      <div className={styles.contactContainer}>
+        <section className={styles.contact}>
+          <div className={styles.contactTitle}>
             <h1>Contact Me</h1>
             <p>Feel Free to Contact Me Any Time</p>
           </div>
-          <div className='contactBox'>
-            <div className='contactForm'>
+          <div className={styles.contactContainer}>
+            <div className={styles.contactForm}>
               <Form />
             </div>
-            <div className='contactInfoBox' id='contact'>
+            <div className={styles.contactInfoBox} id='contact'>
               <h2>Let's talk!</h2>
               <p>
                 If you like my work, feel free to contact me. Below here are my

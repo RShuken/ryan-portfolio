@@ -1,0 +1,27 @@
+.contactForm {
+}
+
+.formBody {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  color: #444444;
+  input {
+    margin: 8px 0px;
+  }
+  input[type='text'] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 60px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .formBox {
+    text-align: center;
+  }
+  .formBox button {
+    margin: 0 auto;
+  }
+}

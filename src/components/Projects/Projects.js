@@ -18,18 +18,20 @@ class Projects extends Component {
             <h1>Projects</h1>
           </div>
           <div className={styles.projectContainerLeft}>
-            <div className={styles.imageContainer}>
-              <a
-                target='_blank'
-                rel='noopener noreferrer'
-                href='https://ok-la-client.vercel.app/'
-              >
-                <img src={okla} alt='Ok Language Learning' />
-              </a>
-            </div>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://ok-la-client.vercel.app/'
+            >
+              <img
+                src={okla}
+                className={styles.projectImage}
+                alt='Ok Language Learning'
+              />
+            </a>
             <div className={styles.projectInfoContainer}>
-              <h1>Ok Language Learning</h1>
-              <h2>
+              <h2>Ok Language Learning</h2>
+              <h3>
                 React, JavaScript, JWT, PostgreSQL, NodeJS, Express, HTML, CSS
                 and custom data structures{' '}
                 <a
@@ -39,7 +41,7 @@ class Projects extends Component {
                 >
                   GitHub
                 </a>
-              </h2>
+              </h3>
               <p>
                 A language learning flashcard sharing platform. Flashcards are
                 built on a spaced repetition custom data structure which
@@ -56,12 +58,16 @@ class Projects extends Component {
                 rel='noopener noreferrer'
                 href='https://petful-client-template-lake.vercel.app/'
               >
-                <img src={petful} alt='Petful Adoption' />
+                <img
+                  src={petful}
+                  className={styles.projectImage}
+                  alt='Petful Adoption'
+                />
               </a>
             </div>
             <div className={styles.projectInfoContainer}>
-              <h1>Petful Adoption</h1>
-              <h2>
+              <h2>Petful Adoption</h2>
+              <h3>
                 React, JavaScript, JWT, PNodeJS, Express, HTML, CSS and Double
                 Linked List data structure{' '}
                 <a
@@ -71,7 +77,7 @@ class Projects extends Component {
                 >
                   GitHub
                 </a>
-              </h2>
+              </h3>
               <p>
                 Pet adoption platform showcasing a double linked list data
                 structure managing an adoption list severed from an open-source
@@ -89,12 +95,16 @@ class Projects extends Component {
                 rel='noopener noreferrer'
                 href='https://spaced-repition-client.vercel.app/'
               >
-                <img src={spacedR} alt='Spaced Repetition' />
+                <img
+                  src={spacedR}
+                  className={styles.projectImage}
+                  alt='Spaced Repetition'
+                />
               </a>
             </div>
             <div className={styles.projectInfoContainer}>
-              <h1>Spaced Repetition Data Structure</h1>
-              <h2>
+              <h2>Spaced Repetition Data Structure</h2>
+              <h3>
                 React, JavaScript, PostgreSQL, NodeJS, Express, HTML and Single
                 Linked List data structure{' '}
                 <a
@@ -104,7 +114,7 @@ class Projects extends Component {
                 >
                   GitHub
                 </a>
-              </h2>
+              </h3>
               <p>
                 This project illustrates how a linked list in the backend can be
                 implemented through to the front end. The language flashcards

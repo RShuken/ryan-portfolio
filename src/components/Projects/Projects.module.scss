@@ -3,14 +3,10 @@
 }
 
 .projects {
-  
 }
 
-.projectsTitle{
-
-
+.projectsTitle {
   h1 {
-
   }
 }
 
@@ -22,25 +18,20 @@
   margin: 20px;
 }
 
-.imageContainer {
-
+.projectImage {
+  width: 200px;
+  height: auto;
 }
 
 .projectInfoContainer {
- 
   h1 {
-
   }
   h2 {
-
   }
   a {
-
   }
-  p{
-
+  p {
   }
-
 }
 
 .projectContainerRight {
@@ -51,14 +42,12 @@
   margin: 20px;
 }
 
-.projectInfoBox {
-
+.projectInfoContainer {
   h1 {
-
   }
 }
 
-.projectInfoBox {
+.projectInfoContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,14 +55,7 @@
   padding: 20px;
 }
 
-
-
-.imageBox img {
-  width: 100%;
-  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.37);
-}
-
-.projectInfoBox h2 {
+.projectInfoContainer h2 {
   font-size: 16px;
 }
 
@@ -88,7 +70,7 @@
 }
 
 @media (max-width: 768px) {
-  .projectInfoBox h1 {
+  .projectInfoContainer h1 {
     font-size: 40px;
     line-height: normal;
     letter-spacing: normal;

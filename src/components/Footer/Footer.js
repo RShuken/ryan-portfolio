@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Footer.css'
+import styles from './Footer.module.scss'
 
 class Footer extends Component {
   constructor(props) {
@@ -10,7 +10,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div className='footerContainer'><p>Copyright: 2021</p></div>
+        <div className={styles.footerContainer}><p>Copyright: 2021</p></div>
       </footer>
     );
   }
