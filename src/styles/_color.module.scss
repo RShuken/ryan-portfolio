@@ -1,8 +1,7 @@
 $light-grey: #868686;
-
-
-
+$black: #000000;
 
 :export {
-    lightGrey: $light-grey;
+  lightGrey: $light-grey;
+  black: $black;
 }

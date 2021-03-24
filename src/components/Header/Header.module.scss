@@ -12,6 +12,7 @@ header {
 }
 
 .name {
+  margin-left: 50px;
   font-size: 3em;
   font-family: 'Great Vibes';
 }
@@ -47,6 +48,10 @@ header {
 @media (max-width: 768px) {
   .nav {
     flex-direction: column;
+  }
+
+  .name {
+    margin: 0 auto;
   }
 
   .navigationList span {

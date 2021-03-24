@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './About.css';
-import headshot from '../../images/headshot.JPG'
+import styles from './About.module.scss';
+import headshot from '../../images/ryanheadshot.png';
 
 class About extends Component {
   constructor(props) {
@@ -10,21 +10,29 @@ class About extends Component {
 
   render() {
     return (
-      <section className='aboutSection' id='about'>
+      <section className={styles.aboutSection} id='about'>
         <h1>About</h1>
-        <div className='aboutBox'>
+        <div className={styles.aboutContainer}>
           <img src={headshot} alt='headshot' />
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
+          <div className={styles.blurb}>
+            <p>
+              Im a Full-stack developer with a strong understanding of how to
+              bring ideas to production. I've been part of teams that have gone
+              from ideation to product development and delivered products to
+              over 400 million users globally.
+            </p>
+            <br/>
+            <p>
+              I have a customer-first approach with strong interpersonal and
+              presentation skills, and a high degree of integrity. I enjoy
+              cross-disciplinary development, connecting business needs and
+              goals, with customer preferences and user-first design to ship
+              products that people love. I use design thinking processes to
+              better connect what people say, with what they need. I enjoy the
+              balance of qualitative vs quantitative decision making and a good
+              challenge.
+            </p>
+          </div>
         </div>
       </section>
     );

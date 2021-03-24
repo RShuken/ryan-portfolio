@@ -5,7 +5,13 @@
   font-style: normal;
   font-weight: bold;
   font-size: $fontSize;
-  line-height: 120px;
+}
+
+@mixin fontLato($fontSize) {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight:lighter;
+  font-size: $fontSize;
 }
 
 .App {
@@ -22,10 +28,15 @@ h1 {
 
 h2 {
   @include fontPoppins(28px);
-  color: $light-grey;
+  color: $black;
 }
 
 h3 {
   @include fontPoppins(24px);
   color: $light-grey;
+}
+
+p {
+  @include fontPoppins(14px);
+  color: $black;
 }

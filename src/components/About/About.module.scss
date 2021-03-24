@@ -1,0 +1,60 @@
+/* css is in order as it appears on the page */
+@import '../../styles/_color.module.scss';
+
+.aboutSection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-left: 6vw;
+}
+
+// nested img tag
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  img {
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  // mobile view the about container changes to column and fonts become fluid
+
+  .aboutSection {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin: 0 auto;
+    font-size: clamp(28px, 9vw, 62px);
+  }
+
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 25vw;
+      height: auto;
+    }
+  }
+}
