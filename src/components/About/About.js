@@ -16,8 +16,8 @@ class About extends Component {
           <img src={headshot} alt='headshot' />
           <div className={styles.blurb}>
             <p>
-              Im a Full-stack developer with a strong understanding of how to
-              bring ideas to production. I've been part of teams that have gone
+              I'm a Full-stack developer with a strong understanding of how to
+              bring ideas to production. I've been part of teams and startups that have gone
               from ideation to product development and delivered products to
               over 400 million users globally.
             </p>

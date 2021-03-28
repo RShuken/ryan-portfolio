@@ -13,10 +13,8 @@ class Projects extends Component {
   render() {
     return (
       <div className={styles.projectsWrapper}>
-        <section className={styles.projects}>
-          <div className={styles.projectsTitle} id='projects'>
+        <section className={styles.projects}id='projects'>
             <h1>Projects</h1>
-          </div>
           <div className={styles.projectContainerLeft}>
             <a
               target='_blank'
